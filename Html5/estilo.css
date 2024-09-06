@@ -1,0 +1,120 @@
+/*Formatação do cabeçalho*/
+#cabeçalho{   
+    background: greenyellow;
+    /*cor de fundo*/
+    padding: 15px;
+    /*distancia dos elementos de dentro do cabeçalgo*/
+    text-align: center;
+    /*Alinhamento dos elementos do cabeçalho*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Tipo de fonte*/
+    font-size: 25px;
+    /*Tamanho da fonte*/
+    color: white;
+}
+.navegar{
+    padding: 15px;
+    margin: 5px;  
+    /*Margem de fora do Nav*/
+}
+/* Formatação dos Links do cabeçalho*/
+a{
+    padding: 5px;
+    text-decoration: none;
+    /*usei o "text-decoration" para remover o underline*/
+    color: white;
+    /*Usei "color" para mudar a cor dos links*/
+}
+    /*Codigo de formatação dos links, para que eles fiquem mais interativos*/
+a:link{
+    color: white;
+}
+a:hover{
+    color: greenyellow;
+    background: white;
+}
+    /*Código para a formatação do paragrafo*/
+#paragrafos{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: green;
+    color: white;
+    margin: 20px 45px 20px 45px;
+}
+#preto{
+    color: black;
+}
+    /*Código para a formatação de todos os elementos "h2"*/
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+    /*Código para formatar a lista*/
+#lista{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/*Usei essa classe para formatar o conteudo da section lista.*/
+.formato-lista{
+    background-color: green;
+    color: white;
+    margin: 20px 45px 20px 45px;
+}
+/*código para formatar o texto do "caption"*/
+caption{
+    padding: 8px;
+    font-size: 23px;
+}
+    /*Código para formatar os elementos da tábela*/
+#tabela{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    margin: 20px 45px 20px 45px;
+    text-align: center;
+}
+    /*Usei essa formatação para alinhar a tabela com os elementos ao redor da tabela*/
+table{
+    margin: auto;
+}
+/*Código de formatação do formulário.*/
+#formulario{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    background-color: green;
+    color: white;
+    margin: 20px 45px 20px 45px;
+    text-align: center;
+}
+    /*Usei essa classe para criar uma borda em volta dos elementos do formulario.*/
+.borda{
+    border: 1px solid white;
+    width: 180px;
+    padding: 20px 20px 20px 20px;       
+    margin: auto;
+}
+    /*código de formatação da section mídia*/
+#midia{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    background: green;
+    color: white;
+    margin: 20px 45px 20px 45px;
+    text-align: center;
+}
+    /*Código de formatação do rodapé*/
+#rodape{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+}
